@@ -1,0 +1,59 @@
+.border {border: 1px solid black;}
+
+.flex {display: flex;}
+
+.flex-column {
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-horizontal-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-1 {margin-bottom: 20px;}
+
+.mb-2 {margin-bottom: 40px;}
+
+.mb-3 {margin-bottom: 60px;}
+
+.mb-4 {margin-bottom: 80px;}
+
+.mb-5 {margin-bottom: 100px; !important}
+
+.mt-1 {margin-top: 20px;}
+
+.mt-2 {margin-top: 40px;}
+
+.mt-3 {margin-top: 60px;}
+
+.mt-4 {margin-top: 80px;}
+
+.mt-5 {margin-top: 100px;}
+
+.p-1 {padding: 10px;}
+.p-2 {padding: 20px;}
+.p-3 {padding: 30px;}
+.p-4 {padding: 40px;}
+.p-5 {padding: 50px;}
+
+
+.redes-sociales img{
+    width: 25px;
+    margin-right: 10px;
+}
+.redes-sociales a{
+    justify-content: left;
+}

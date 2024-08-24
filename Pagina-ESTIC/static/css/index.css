@@ -1,0 +1,138 @@
+.primer-banner {
+    width: 100%;
+}
+
+.banner-container {
+    width: 90%;
+}
+
+.titulo-banner {
+    width: 60%;
+}
+
+.titulo-banner h1 {
+    font-weight: 500;
+    font-size: 6em !important;
+}
+
+.titulo-banner p>a {
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.logo-banner {
+    width: 40%;
+}
+
+.container {
+    width: 90%;
+}
+
+.velo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, transparent 100%);
+    align-items: start;
+    justify-content: flex-end;
+    text-align: left;
+    color: white;
+}
+.carousel-item img, .uso-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.velo2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7) 50%, transparent 100%);
+    color: white;
+    justify-content: flex-end;
+}
+
+.carousel{
+    border-radius: 20px;
+}
+
+.descripcion-titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.descripcion-texto{
+    height: 180px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.301);
+    font-size: 1.3rem;
+}
+
+.uso-container{
+    position: relative;
+    width: 100%;
+    max-height: 600px;
+    min-height: 500px;
+    overflow: hidden;
+}
+.uso-container img{
+    height: 100%;
+    max-height: 600px;
+    min-height: 500px;
+}
+@media(max-width: 1200px) {
+    .titulo-banner h1 {
+        font-size: 5em !important;
+    }
+    .descripcion-texto{
+        height: 240px;
+    }
+}
+
+@media(max-width: 900px) {
+    .titulo-banner h1 {
+        font-size: 4em !important;
+    }
+    .descripcion-container{
+        flex-wrap: wrap;
+    }
+    .descripcion-container > .col{
+        width: 50% !important;
+        margin: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .descripcion-texto{
+        height: 180px;
+    }
+}
+
+@media(max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-container>div {
+        width: 100%;
+    }
+    .descripcion-texto{
+        height: 240px;
+    }
+}
+
+@media(max-width: 576px) {
+    .descripcion-container{
+        flex-direction: column;
+    }
+    .descripcion-container > .col{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .descripcion-texto{
+        height: 200px;
+    }
+}
